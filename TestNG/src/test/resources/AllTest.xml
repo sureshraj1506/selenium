@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="AllTest" thread-count="5" verbose="3">
+
+         <test name="First" junit="false" preserve-order="true">
+          <classes>
+          <class name="Selenium.TestScenarios" />
+            <methods>
+            	<include name="test1"></include>
+            	
+            	
+            </methods>
+          </classes>          
+        </test>
+        
+        <test name="Second" junit="false" preserve-order="true">
+          <classes>
+          <class name="Selenium.TestScenarios" />
+            <methods>
+            	
+            	<include name="test2"></include>
+            	
+            </methods>
+          </classes>          
+        </test>
+        
+        <test name="Third" junit="false" preserve-order="true">
+          <classes>
+          <class name="Selenium.TestScenarios" />
+            <methods>
+            	
+            	<include name="test3"></include>
+            	
+            </methods>
+          </classes>          
+        </test>
+        
+ </suite>

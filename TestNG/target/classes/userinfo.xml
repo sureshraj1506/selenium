@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<Selenium>
+	<search>//input[@id='query']</search>
+	<photo>photo</photo>
+	<serchbutton>//input[@value='Search']</serchbutton>
+	<print>//*/a[contains(text(),'Prints')]</print>
+	<pharmacymouseover>//*/a[contains(text(),'Pharmacy &amp; Health')]</pharmacymouseover>
+	<refillprescriptions>//ul[@id='products']/li/ul/li/a</refillprescriptions>
+	<register>//*/a[contains(text(),'Register')]</register>
+	<signup>//img[@alt='Sign up for Basic Access']</signup>
+	<firstname>//input[@id='firstname']</firstname>
+	<firstnamevalue>Sureshkumar</firstnamevalue>
+	<lastname>//input[@id='lastname']</lastname>
+	<lastnamevalue>Rajendran</lastnamevalue>
+	<email>//input[@id='emailAddress']</email>
+	<emailvaluve>sureshraj1506@gmail.com</emailvaluve>
+	<confirmemailAddress>//input[@id='confirmemailAddress']</confirmemailAddress>
+	<confirmemailAddressvalue>sureshraj1506@gmail.com</confirmemailAddressvalue>
+	<password>//input[@id='password_1']</password>
+	<passwordvalue>Suresh@123</passwordvalue>
+	<confirmpassword>//input[@id='confirmpassword']</confirmpassword>
+	
+	<confirmpasswordvalue>Suresh@123</confirmpasswordvalue>
+	<submit>//input[@name='submit']</submit>
+	<alertAccept>//a[@id='overlayClose']</alertAccept>
+</Selenium>
